@@ -8,175 +8,175 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/서울"
+        android:id="@+id/seoul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_marginStart="100dp"
-        android:text="서울_인텔 인공지능 인재 양성 과정 2기"
+        android:text="@string/seoul"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/검색"
+        android:id="@+id/search"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="검색하기"
-        android:textColor="#C0C0C0"
+        android:text="@string/search"
+        android:textColor="#E0E0E0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/서울"/>
+        app:layout_constraintTop_toBottomOf="@id/seoul" />
 
 
     <TextView
-        android:id="@+id/확인"
+        android:id="@+id/confirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:text="확인해주세요!"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/검색"
+        android:layout_marginStart="25dp"
+        android:text="@string/confirm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search"
 
         />
 
     <TextView
-        android:id="@+id/공지"
+        android:id="@+id/notice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:text="# 공지사항"
+        android:layout_marginStart="25dp"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/notice"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/확인"
+
+        app:layout_constraintTop_toBottomOf="@id/confirm" />
+
+    <TextView
+        android:id="@+id/what"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/what"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/notice"
 
         />
 
     <TextView
-        android:id="@+id/무엇"
+        android:id="@+id/colleague"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="무엇이든 물어보세요"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/공지"
-
-        />
-
-    <TextView
-        android:id="@+id/동기"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:text="# 동기에게-물어봐"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/colleague"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/무엇"
+
+        app:layout_constraintTop_toBottomOf="@id/what" />
+
+    <TextView
+        android:id="@+id/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/hard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/colleague"
 
         />
 
     <TextView
-        android:id="@+id/열심"
+        android:id="@+id/artificial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="열심히 교육받아요!"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/동기"
-
-        />
-
-    <TextView
-        android:id="@+id/인공"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:text="# 인공지능-과정"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/artificial"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/열심"
 
-        />
+        app:layout_constraintTop_toBottomOf="@id/hard" />
 
     <TextView
-        android:id="@+id/앱"
+        android:id="@+id/app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="# 앱-과정"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/app"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/인공"
 
-        />
+        app:layout_constraintTop_toBottomOf="@id/artificial" />
 
     <TextView
-        android:id="@+id/프로"
+        android:id="@+id/project"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="# 프로젝트-과정"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/pro"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/앱"
+
+        app:layout_constraintTop_toBottomOf="@id/app" />
+
+    <TextView
+        android:id="@+id/friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/friend"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/project"
 
         />
 
     <TextView
-        android:id="@+id/친해"
+        android:id="@+id/lunch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="친해져요!"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/프로"
-
-        />
-
-    <TextView
-        android:id="@+id/점심"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:text="# 점심-추천해요"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/lunch"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/친해"
 
-        />
+        app:layout_constraintTop_toBottomOf="@id/friend" />
 
     <TextView
-        android:id="@+id/오프"
+        android:id="@+id/off"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="# 오프더레코드"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/off"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/점심"
 
-        />
+        app:layout_constraintTop_toBottomOf="@id/lunch" />
 
     <TextView
-        android:id="@+id/정보"
+        android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="# 정보-공유해요"
         android:clickable="true"
+        android:minHeight="48dp"
+        android:text="@string/info"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/오프"
 
-        />
+        app:layout_constraintTop_toBottomOf="@id/off" />
 
     <TextView
-        android:id="@+id/스터"
+        android:id="@+id/study"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="스터디실"
+        android:text="@string/study"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/정보"
+        app:layout_constraintTop_toBottomOf="@id/info"
 
         />
 
